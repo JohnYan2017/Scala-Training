@@ -5,7 +5,7 @@ package quickstudy
   * 只能有一个超类,但可以有多个特质
   *
   */
-object Part10 {
+object Trait {
   def main(args: Array[String]): Unit = {
 // 当做接口使用的特质
 //    trait Logger{

@@ -9,7 +9,7 @@ import scala.collection.immutable.SortedMap
   * Created by OP035308 on 2017/9/8.
   * 关于映射与元组的使用
   */
-object Part4 {
+object Map_Tuple {
   def main(args: Array[String]): Unit = {
      val filePath ="D:\\Project\\IdeaProjects\\Training\\src\\main\\scala\\"
 //    val scores =Map("Alice"->10,"Bob"->3,"Cindy"->8)

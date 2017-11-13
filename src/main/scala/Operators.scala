@@ -2,7 +2,7 @@ package quickstudy
 /**
   * Created by OP035308 on 2017/10/19.
   */
-object Part11 {
+object Operators {
   def main(args: Array[String]): Unit = {
 
     //更多的标识符

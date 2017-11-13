@@ -20,8 +20,7 @@ object TestFunc {
 
 
 	def add2  = add(_:Int,2)
-	
-	
+
 	
 //	f(n)=f(n)*f(n-1)
 	def fac(n:Int):Int = if( n <= 0) 1 else n*fac(n-1)
@@ -80,6 +79,20 @@ object TestFunc {
 //			  return sumF
 //	  }
 
+	def hano(A: String = "A", B: String = "B", C: String = "C", n: Int = 10): Int = {
+		var moveStep = 0;
+		if (n == 1) {
+			println(A + "->" + C); moveStep += 1
+		}
+		else {
+			moveStep += hano(A, C, B, n - 1)
+			println(A + "->" + C)
+			moveStep += 1
+			moveStep+=hano(B, A, C, n - 1)
+		}
+		moveStep
+	}
+
 
 	
 	def main(args: Array[String]) {
@@ -114,14 +127,14 @@ object TestFunc {
 //			  return sumF
 //	    }
 
-	    def sumInts = sum( x => x)
-    	println(sumInts(1,2))
-	  
+//	    def sumInts = sum( x => x)
+//    	println(sumInts(1,2))
+//
 	  
 //	  val tttt = (a:Int,b:Int)=>a*b;
 //	  testf1(tttt);
 //	  testf1((a:Int,b:Int)=>a*b)
 	  
-	  
+	  println("Total Step is " + hano())
 	}
 }

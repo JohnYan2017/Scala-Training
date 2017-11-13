@@ -443,18 +443,18 @@ parameter to "fun" is evaluated ONLY when its value is
 needed in the body of the function. This is the "call-by-name"
 method of parameter passing, which is a "non-strict" strategy.
      */
-    //    def fun1() = {
-    //      println("fun1")
-    //      10
-    //    }
-    //    def fun2() = {
-    //      println("fun2")
-    //      20
-    //    }
-    //    def myIf(cond: Boolean, thenPart: => Int,
-    //             elsePart: => Int) =
-    //      if (cond) thenPart else elsePart
-    //    println(myIf((1 < 2), fun1(), fun2()))
+//        def fun1() = {
+//          println("fun1")
+//          10
+//        }
+//        def fun2() = {
+//          println("fun2")
+//          20
+//        }
+//        def myIf(cond: Boolean, thenPart: => Int,
+//                 elsePart: => Int) =
+//          if (cond) thenPart else elsePart
+//        println(myIf((1 < 2), fun1(), fun2()))
 
 
     //    def hello() = {

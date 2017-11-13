@@ -5,7 +5,7 @@ package quickstudy
 import java.io.FileInputStream
 import scala.io.Source
 
-object Part9 {
+object IO {
   def main(args: Array[String]): Unit = {
     val source = Source.fromFile("D:\\Project\\IdeaProjects\\Training\\src\\main\\scala\\myfile.txt","UTF-8")
 //    val lineIterator = source.getLines()

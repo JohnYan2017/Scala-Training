@@ -19,7 +19,7 @@ object Implicit01 {
       val older = obj.asInstanceOf[Older]
       new SpecialPerson(older.name)
     }else {
-      Nil
+      null
     }
   }
 
